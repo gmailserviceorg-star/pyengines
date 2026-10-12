@@ -18,6 +18,8 @@ dependencies = [
     "immersive-audio",
     "requests",
     "pywin32; sys_platform == 'win32'",
+    "timezonefinder",
+    "astral",
 ]
 
 [tool.hatch.build.targets.wheel]
